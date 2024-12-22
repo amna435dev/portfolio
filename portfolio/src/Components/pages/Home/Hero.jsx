@@ -3,7 +3,7 @@ import { IoMdDownload } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div>
+    <div className='flex flex-wrap'  >
         <div>
             <div className='mt-[100px] ml-[160px]'>
                 <h1 className='uppercase text-7xl font-bold flex flex-col' >
