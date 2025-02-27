@@ -11,7 +11,7 @@ src/
                 react
                 javascript
                 
-                npm dev run (server chrome)
+                npm run dev (server chrome)
                 tailwind initialize 
 
 

@@ -12,20 +12,29 @@ const Footer = () => {
     
   
     <footer className="bg-[#222831] py-6 text-center">
-        <div>
-    <hr className='border-[1px] border-white/10 mb-10' />
-    </div>
-    <div className="flex justify-center mb-2">
-      <a href="#" className="mr-4 hover:text-gray-600 flex items-center gap-1">
-        <i className="fas fa-home mr-2"><AiOutlineHome /></i> Home
-      </a>
-      <a href="#" className="mr-4 hover:text-gray-600 flex items-center gap-1">
-        <i className="fas fa-user mr-2"><LuUser /></i> About Me
-      </a>
-      <a href="#" className="hover:text-gray-600 flex items-center gap-1">
-        <i className="fas fa-envelope mr-2"><LuPhone /></i> Contact
-      </a>
-      </div>
+      <div>
+  <hr className='border-[1px] border-white/10 mb-5 md:mb-10' />
+</div>
+
+<div className="flex flex-wrap justify-center mb-2">
+  <div className="flex justify-center mb-2 md:mb-0">
+    <a href="#" className="mr-4 hover:text-gray-600  flex items-center gap-1">
+      <i className="fas fa-home mr-2"><AiOutlineHome /></i>
+      Home
+    </a>
+    <a href="#" className="mr-4 hover:text-gray-600  flex items-center gap-1">
+      <i className="fas fa-user mr-2"><LuUser /></i>
+      About Me
+    </a>
+  </div>
+  <div className=" mr-6 flex justify-center">
+    <a href="#" className="hover:text-gray-600 flex items-center gap-1">
+      <i className="fas fa-envelope mr-2"><LuPhone /></i>
+      Contact
+    </a>
+  </div>
+</div>
+
       <div className="flex justify-center gap-2 mb-2">
         <div className="bg-[#393E46] rounded-full p-3 mr-2 ">
         <FaFacebook />
@@ -41,11 +50,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-between">
-        <p className="text-[#EEEEEE] ml-4">&copy; 2024 Your Website</p>
-        <p className="text-[#EEEEEE] mr-4">Terms of Service - Privacy Policy</p>
+        <p className="text-[#EEEEEE]  ml-4">&copy; 2024 Your Website</p>
+        <p className="text-[#EEEEEE]   mr-4">Terms of Service - Privacy Policy</p>
       </div>
   </footer>
   )
 }
 
 export default Footer
+
+

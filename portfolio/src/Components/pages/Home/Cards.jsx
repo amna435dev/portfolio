@@ -5,14 +5,14 @@ const Cards = () => {
   className="team my-20"
   >
       <div className=" w-full px-10 py-10 ">
-      <h3 className=" text-5xl font-bold">
+      <h3 className=" md:text-5xl text-4xl font-bold">
         MY RECENT <span className="text-[#00ADB5]">WORKS</span>
       </h3>
       <div className="flex gap-4 py-5">
-        <button className="px-4 py-2 rounded-full bg-[#00ADB5]">ALL</button>
-        <button className="px-4 py-2 rounded-full bg-[#393E4680]">UI</button>
-        <button className="px-4 py-2 rounded-full bg-[#393E4680]">UX</button>
-        <button className="px-4 py-2 rounded-full  bg-[#393E4680]">
+        <button className="md:px-4 px-1 md:py-2 md:rounded-full rounded-md  text-sm bg-[#00ADB5]">ALL</button>
+        <button className="md:px-4 px-1 md:py-2 md:rounded-full rounded-md text-sm bg-[#393E4680]">UI</button>
+        <button className="md:px-4 px-1 md:py-2 md:rounded-full rounded-md text-sm bg-[#393E4680]">UX</button>
+        <button className="md:px-4 px-1 md:py-2 md:rounded-full rounded-md text-sm bg-[#393E4680]">
           WEB DESIGN
         </button>
       </div>
